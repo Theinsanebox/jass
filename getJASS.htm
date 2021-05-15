@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JASS - Jainil's Awesome Style Sheet</title>
+    <link rel="icon" href="j96.png" type="icon/png">
+    <link rel="stylesheet" href="getJASS.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="getJASS.js"></script>
+</head>
+<body>
+    <script>
+        //Jquery
+
+$(document).ready(function(){
+
+
+    $('main').hide();
+
+    setTimeout(() => {
+        $('main').show();        
+    }, 10000);
+
+    setTimeout(() => {
+        $('.main-intro').hide();        
+    }, 10000);
+
+$('.copy-btn').hide();
+
+$('#cssimg').click(function(){
+    $('#jsimg').hide();
+    $('.css-css').show();
+    $('#copy-btn1').show();
+  
+});
+
+
+$('#jsimg').click(function(){
+    $('#cssimg').hide();
+    $('.js-js').show();
+        $('#copy-btn2').show();
+});
+
+$('.js-js').hide();
+$('.css-css').hide();
+
+$('.inpcopy').hide();
+$('.inpcopy2').hide();
+
+$('.all-download-things').hide();
+
+$('.main-head-download').click(function(){
+    $('.all-download-things').show();
+});
+
+$('.main-head-download2').click(function(){
+    $('.all-download-things').show();
+});
+
+
+
+    
+
+});
+
+    </script>
+
+
+
+
+<!--BODYBODYBODYBODYBODYOBODYBODYBODYOBODYOBODY-->
+
+
+<div class="main-intro">
+    <img src="j144.png" class="main-intro-icon">
+    <div class="main-intro-text">Welcome to JASS</div>
+    <div class="main-intro-text2">A CSS Framework </div>
+    <div class="main-loading-outer">
+        <div class="main-loading-inner">
+
+        </div>
+    </div>
+</div>
+
+
+<main>
+
+    <div class="main-head-nav">
+        <img src="j96.png" alt="JASS" class="main-head-icon" >
+        <div class="animation-jass">JASS</div>
+        <a href="#"><button  class="main-head-download"> Download </button></a> 
+        <a href="startJASS.htm"><button  class="main-head-start"> Get Started </button></a> 
+    </div>
+    
+    <!--div class="oval"></div--->
+
+    <center>
+    <img src="j240.png" class="main-head-3img">
+    </center>
+    
+    
+    <div class="main-head-1">
+    
+    Build fast and responsive website with JASS.
+    </div>
+    
+    <div class="main-head-2">
+        
+Quickly design and customize  responsive mobile-first sites  with JASS. the world’s most  popular front-end  open source and a css framework.
+    </div>
+    
+
+    
+<center>
+
+    <div class="head-version">
+        v1.0.0 beta
+    </div>
+    
+    <a href="#">
+        <button class="main-head-download2">
+            Download
+        </button>
+    </a>
+
+    <a href="startJASS.htm">
+        <button class="main-head-start2">
+            Get Started
+        </button>
+    </a>
+    
+
+
+</center>
+    
+<div class="all-download-things">
+
+
+    <div id="dwnld-htu" class="head-htu">
+        <div class="htu-bg">&lt; &gt;</div>
+        <div class="htu-main-text">How to use</div>
+        <div class="htu-guide">Follow the steps shown below:</div>
+        <div class="htu-steps">
+        1.Copy the tag/text given below.
+        <br><br>
+        2.Paste that in your HTML file.(between &lt;head&gt; Section)
+        <br><br>
+        3.Now Click on Get Started.
+        <br><br>
+        4.Select the component that you want to use.
+        <br><br>
+        5.Copy the code shown below of that component.
+        <br><br>
+        6.Now paste that in your HTML file.
+        </div>
+
+    </div>
+    
+<!-- 
+    <div class="main-links1">
+<img src="css.png" class="links1">
+<div class="css-tag">  &lt;link href="https://jainilsoni1706.github.io/j/JASScss.css" rel="stylesheet"&gt; </div>
+
+
+<img src="js.png" class="links1">
+<div class="js-tag">  &lt;script src="https://jainilsoni1706.github.io/j/JASSjs.js""&gt;  </div>
+
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    <div class="main-tags">
+        <img src="css2.png" class="thisimg" id="cssimg">
+        <img src="js2.png" class="thisimg" id="jsimg">
+    </div>
+    
+    
+    <div class="cont-tag">
+        <div id="css-img" class="css-css">&lt;link href="https://jainilsoni1706.github.io/j/JASScss.css" rel="stylesheet"&gt;</div>
+        <div id="js-img" class="js-js"> &lt;script src="https://jainilsoni1706.github.io/j/JASSjs.js"&gt;</div>
+    </div>
+    
+    
+    <div class="cont-copy">
+        <button class="copy-btn" onclick="copy1()" id="copy-btn1"> Copy </button>
+        <button class="copy-btn" onclick="copy2()" id="copy-btn2"> Copy </button>
+    </div>
+    
+
+
+<input type="text" value="<link href='https://jainilsoni1706.github.io/j/JASScss.css" rel="stylesheet'>" id="forcpy1" class="inpcopy">
+    <input type="text" value='<script src="https://jainilsoni1706.github.io/j/JASSjs.js">' class="inpcopy2" id="forcpy2">
+    
+    </div>
+
+
+
+    <div class="main-end">
+        JASS Copyrights © 2021
+    </div>
+    
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--BODYBODYBODYBODYBODYOBODYBODYBODYOBODYOBODY-->
+
+</body>
+</html>
