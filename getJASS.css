@@ -44,7 +44,7 @@ body{
 }
 
 .animation-jass::after{
-    content: 'JASS';
+    content: 'JASS5';
     background: var(--red);
     color: var(--red);
     font-family: arial;
