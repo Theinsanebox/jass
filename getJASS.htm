@@ -19,11 +19,7 @@
 $(document).ready(function(){
 
 
- setTimeout(() => {
-        $('
-advrtsmnt111').show();        
-    }, 10000);
-
+$('.advrtsmnt').hide();
     $('main').hide();
 
     setTimeout(() => {
@@ -67,6 +63,11 @@ $('.main-head-download2').click(function(){
 });
 
 
+	setTimeout(function(){
+$('
+advrtsmnt111').show();
+	
+	},10000);
 $('advrtsmnt-close').click(function(){
 $('
 advrtsmnt111').hide();
