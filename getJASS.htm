@@ -23,8 +23,8 @@ $('.advrtsmnt').hide();
     $('main').hide();
 
     //setTimeout(() => {
-  //      $('main').show();        
-    //}, 10000);
+     //   $('main').show();        
+//    }, 10000);
 
     setTimeout(() => {
         $('.main-intro').hide();        
@@ -67,13 +67,16 @@ $('.main-head-download2').click(function(){
 $('.advrtsmnt').show();
 	
 	},10000);
-$('advrtsmnt-close').click(function(){
-$('.advrtsmnt').hide();
-	     $('main').show();        
-});
     
 
 });
+	    
+	    
+	    
+function closepopup(){
+	document.querySelector('.advrtsmnt').style.display = "none";
+	$('main').show();
+}
 
     </script>
 
@@ -102,7 +105,7 @@ $('.advrtsmnt').hide();
 
     
 <div class="advrtsmnt">
-	<img src="close.png" class="advrtsmnt-close">		
+	<img src="close.png" onclick="closepopup()" class="advrtsmnt-close">		
 				<img src="jassmobile.png" class="advrtsmnt-img">
 		<div class="advrtsmnt-text"> <b> JASS Mobile </b> is now available for  mobile.</div>
 		<a class="advrtsmnt-link" href="https://jainilsoni1706.github.io/jass/getJASSMobile.htm">
