@@ -889,16 +889,16 @@ ANIMATIONS ANIMATIONS ANIMATIONS ANIMATIONS ANIMATIONS ANIMATIONS ANIMATIONS ANI
     transform: rotate(225deg);
 }
 80%{
-    transform: rotate(180deg);
+    transform: rotate(280deg);
     }
 85%{
-    transform: rotate(135deg);
+    transform: rotate(325deg);
         }
 90%{
-    transform: rotate(90deg);
+    transform: rotate(385deg);
             }           
 95%{
-    transform: rotate(45deg);
+    transform: rotate(430deg);
 }
 
 }
