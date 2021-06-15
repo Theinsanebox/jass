@@ -178,7 +178,7 @@ a{
     align-items: center;
     justify-content: center;
     position: relative;
-    animation: main-loading 5s infinite;
+    animation: main-loading 10s 1;
     position: relative;
 }
 
