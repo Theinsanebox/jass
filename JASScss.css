@@ -2641,6 +2641,126 @@ width: 8vw;
 
 
 
+a{
+text-decoration: none;
+}
+
+.Navbar_white_1{
+	background:whitesmoke;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap:wrap;
+	font-family: arial;
+	}
+
+	.Nav_New1_home{
+margin-left:5vw;
+margin-right: 20px;
+	}
+
+	.Nav_New1_ContactUs{
+
+	margin-right:5vw;
+	margin-left: 20px;
+	}
+
+	.Nav_New1_home , .Nav_New1_ContactUs , .Nav_New1_Downloads , .Nav_New1_Documentations , .Nav_New1_AboutUs{
+		color: black;
+		font-size: 30px;
+		padding-top:20px;
+		padding-bottom:20px;
+
+	}
+	.Nav_New1_home:hover , .Nav_New1_ContactUs:hover , .Nav_New1_Downloads:hover , .Nav_New1_Documentations:hover , .Nav_New1_AboutUs:hover{
+		border-bottom: 5px solid #ffe135;
+		text-shadow: 3px 3px 5px grey;
+	}
+
+	.Nav_New1_Downloads , .Nav_New1_Documentations , .Nav_New1_Downloads{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a{
+text-decoration: none;
+}
+
+.Navbar_black_2{
+	background:black;
+	border-radius: 10px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap:wrap;
+	font-family: arial;
+	}
+
+	.Nav_New2_home{
+margin-left:5vw;
+margin-right: 20px;
+	}
+
+	.Nav_New2_ContactUs{
+
+	margin-right:5vw;
+	margin-left: 20px;
+	}
+
+	.Nav_New2_home , .Nav_New1_ContactUs , .Nav_New2_Downloads , .Nav_New2_Documentations , .Nav_New2_AboutUs{
+		color: white;
+		font-size: 30px;
+		padding-top:20px;
+		padding-bottom:20px;
+
+	}
+	.Nav_New2_home:hover , .Nav_New2_ContactUs:hover , .Nav_New2_Downloads:hover , .Nav_New2_Documentations:hover , .Nav_New2_AboutUs:hover{
+		border-bottom: 5px solid #ffe135;
+		text-shadow: 3px 3px 5px white;
+	}
+
+	.Nav_New2_Downloads , .Nav_New2_Documentations , .Nav_New2_Downloads{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+
+
 
 
 
