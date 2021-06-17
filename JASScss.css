@@ -2670,6 +2670,7 @@ margin-right: 20px;
 		font-size: 30px;
 		padding-top:20px;
 		padding-bottom:20px;
+		border-bottom: 5px solid transparent;
 
 	}
 	.Nav_New1_home:hover , .Nav_New1_ContactUs:hover , .Nav_New1_Downloads:hover , .Nav_New1_Documentations:hover , .Nav_New1_AboutUs:hover{
@@ -2748,6 +2749,7 @@ margin-right: 20px;
 		font-size: 30px;
 		padding-top:20px;
 		padding-bottom:20px;
+		border-bottom: 5px solid transparent;
 
 	}
 	.Nav_New2_home:hover , .Nav_New2_ContactUs:hover , .Nav_New2_Downloads:hover , .Nav_New2_Documentations:hover , .Nav_New2_AboutUs:hover{
