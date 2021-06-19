@@ -18,6 +18,11 @@ body{
     background: whitesmoke;
 }
 
+details{
+margin-left:25px;
+margin-right:25px;
+}
+
 .main-head-nav{
     background: var(--red);
     height: 100px;
